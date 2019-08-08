@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans";
+	background-color: whitesmoke;
+}
+ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+li {
+	float: right;
+	padding-right: 2%;
+}
+li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	position: fixed;
+	height: 100px;
+	width: 100%;
+	padding: 2%;
+	background-color: #333;
+	border-bottom: 1px lightgray solid;
+}
+#nav-bar {
+	margin-left: 40%;
+	width: 500px;
+}
+.nav-link {
+	color: #fff;
+	font-weight: bold;
+}
+
+#products {
+	background-color: #fff;
+}
+
+#contact h3,
+input {
+	margin-top: 2%;
+	display: block;
+}
+
+#email {
+	width: 170px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+#email:focus {
+	width: 200px;
+}
+#submit {
+	font-weight: bolder;
+	border: solid #041e42;
+	background-color: transparent;
+	color: #041e42;
+	padding: 0.5%;
+	width: 8%;
+	letter-spacing: 1px;
+	opacity: 0.7;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	text-align: center;
+}
+#submit:hover {
+	background-color: #041e42;
+	color: #fff;
+	width: 8%;
+}
+#email {
+	padding: 0.3%;
+	border: lightgray solid;
+	background-color: whitesmoke;
+}
+#video {
+	margin-top: 5%;
+	margin-left: 30%;
+	width: 650px;
+	height: 350px;
+}
+#features {
+	width: 100%;
+	margin-top: 5%;
+	padding: 2%;
+	padding-left: 8%;
+}
+.b-label {
+	font-weight: bold;
+	color: burlywood;
+}
+img {
+	padding: 2%;
+}
+/* table {
+  margin: 5%;
+  border: solid;
+}
+td {
+  padding: 2%;
+} */
+footer {
+	display: block;
+	padding: 2%;
+	color: #fff;
+	font-weight: bold;
+	background-color: #333;
+}
+footer p {
+	text-align: center;
+}
+#video {
+	margin-bottom: 5%;
+}
+@media screen and (max-width: 600px) {
+	img {
+		width: 100%;
+	}
+	#video {
+		margin-right: 50px;
+		width: 300px;
+	}
+	#header-img {
+		width: 30%;
+	}
+	ul {
+		display: flex;
+		flex-direction: column;
+	}
+}
